@@ -1,0 +1,104 @@
+*{
+    margin: 8px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo,.travel{
+display: inline-block;
+font-style: italic;
+font-size: 16px;
+font-weight:600 ;
+padding: 10px 20px;
+border-radius: 10px;
+
+
+}
+.location{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 60%;
+
+}
+#logo{
+    background-color: yellow;
+    margin-left: 6%;
+    color: blue;
+}
+#travel{
+    background-color: rgb(233, 226, 226);
+}
+
+.middle input{
+    border: 2px solid dodgerblue;
+    outline: none;
+    padding: 10px;
+    width:80%;
+    border-radius: 8px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    /* display: inline-block; */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-evenly;
+
+}
+
+.box{
+    width:30px ;
+    height:30px ;
+    background-color: grey;
+    border-radius: 4px;
+    gap: 60px;
+    justify-content: center;
+
+}
+.jeeya{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box,.letter{
+    justify-content: center;
+
+}
+.image img{
+    border-radius: 8px;
+    height:280px ;
+    width: 400px;
+}
+.heroimage{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+/* #reccomendation{
+   background-color: yellowgreen;
+    width:100% ;
+height: auto;
+} */
+.container img{
+    border-radius: 8px;
+    height:280px ;
+    width: 400px;
+}
+.item{
+   display: inline-block;
+}
+
+.footer{
+   background-color: black;
+   color: aliceblue;
+}
+
+.description, .about, .help{
+   display: inline-block;
+   vertical-align: top;
+   margin-left: 15%;
+}   
