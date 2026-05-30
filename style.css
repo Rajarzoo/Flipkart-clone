@@ -1,5 +1,6 @@
+
 *{
-    margin: 8px;
+    margin: 12px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -18,24 +19,35 @@ border-radius: 10px;
     display: inline-block;
     font-weight: 600;
     font-size: 16px;
-    margin-left: 60%;
+    margin-left: 55%;
+    position: relative;
+    top: -10px;
 
 }
 #logo{
     background-color: yellow;
     margin-left: 6%;
     color: blue;
+    margin-left: 13px;
+    position: relative;
+    top: -18px;
 }
 #travel{
     background-color: rgb(233, 226, 226);
+    position: relative;
+    top: -18px;
 }
 
 .middle input{
     border: 2px solid dodgerblue;
     outline: none;
     padding: 10px;
-    width:80%;
-    border-radius: 8px;
+    width:70%;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: -5px;
+    position: relative;
+    top: -10px;
 }
 .bottom{
     display: flex;
@@ -48,23 +60,86 @@ border-radius: 10px;
 
 }
 
-.box{
-    width:30px ;
-    height:30px ;
-    background-color: grey;
-    border-radius: 4px;
-    gap: 60px;
-    justify-content: center;
-
-}
 .jeeya{
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: -26px;  
+}
+#b{
+    margin-left: -40px;
+}
+#c{
+    margin-left: -40px;
+    
+}
+#d{
+    margin-left: -40px;
+
+}
+#e{
+    margin-left: -40px;
+
+}
+#f{
+    margin-left: -40px;
+
+}
+#g{
+    margin-left: -40px;
+
+}
+#h{
+    margin-left: -40px;
+
+}
+#i{
+    margin-left: -40px;
+
+}
+#j{
+    margin-left: -40px;
+
+}
+#k{
+    margin-left: -40px;
+
+}
+#l{
+    margin-left: -40px;
+
+}
+#m{
+    margin-left: -40px;
+
+}
+#n{
+    margin-left: -40px;
+
+}
+hr{
+    margin-top: -15px;
     
 }
 .box,.letter{
     justify-content: center;
 
+} 
+.box i{
+    font-size: 30px;
+    color: rgb(187, 59, 59);
+    /* margin-left: -10px; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: -10px;
+
+}
+
+.letter{
+    font-size: 18px;
+    font-weight: 500;
 }
 .image img{
     border-radius: 8px;
@@ -78,11 +153,11 @@ border-radius: 10px;
     justify-content: center;
     gap: 15px;
 }
-/* #reccomendation{
+#reccomendation{
    background-color: yellowgreen;
     width:100% ;
 height: auto;
-} */
+}
 .container img{
     border-radius: 8px;
     height:280px ;
@@ -96,9 +171,11 @@ height: auto;
    background-color: black;
    color: aliceblue;
 }
-
+h3 i{
+    display: inline-block;
+}
 .description, .about, .help{
    display: inline-block;
    vertical-align: top;
    margin-left: 15%;
-}   
+}      
